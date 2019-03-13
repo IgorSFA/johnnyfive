@@ -1,0 +1,15 @@
+h2.black-title {
+    color: #000000;
+}
+img {
+    border: none !important;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex img {
+    background-color: #ffffff !important;
+}
