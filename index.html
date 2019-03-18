@@ -143,6 +143,26 @@ npm install --save johnny-five firmata
 					</section>
 				</section>
 				<section>
+					<h4>Led</h4>
+					<pre><code class="c">
+void setup() {
+	pinMode(LED_BUILTIN, OUTPUT);
+}
+	
+void loop() {
+	digitalWrite(LED_BUILTIN, HIGH);
+	delay(1000);
+	digitalWrite(LED_BUILTIN, LOW);
+	delay(1000);
+}
+					</code></pre>
+				</section>
+				<section></section>
+				<section>
+					<h4>Curtiu? Quer treinar em casa?</h4>
+					<pre class="fragment"><code class="bash">
+npm install -g nodebot-workshop 
+					</code></pre>
 				</section>
 				<section>
 					<h4>Perguntas?</h4>
